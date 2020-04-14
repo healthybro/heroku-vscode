@@ -3,6 +3,9 @@ FROM debian:10
 RUN apt-get update \
  && apt-get install -y \
     curl \
+  && curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash - \
+  && apt-get install -y \
+    nodejs \
     dumb-init \
     htop \
     locales \
@@ -13,7 +16,6 @@ RUN apt-get update \
     ssh \
     sudo \
     vim \
-    node \
   && rm -rf /var/lib/apt/lists/*
 
 # https://wiki.debian.org/Locale#Manually
