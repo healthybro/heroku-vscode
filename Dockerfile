@@ -3,6 +3,7 @@ FROM debian:10
 RUN apt-get update \
  && apt-get install -y \
     curl \
+    sudo \
   && curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash - \
   && apt-get install -y \
     nodejs \
@@ -14,7 +15,6 @@ RUN apt-get update \
     git \
     procps \
     ssh \
-    sudo \
     vim \
   && rm -rf /var/lib/apt/lists/*
 
