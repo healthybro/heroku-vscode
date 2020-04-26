@@ -13,7 +13,7 @@ Branch [code-server-latest](https://github.com/healthybro/heroku-vscode/tree/cod
 
 It is lastest (may be pre-release) version of code-server
 
-[![herokuButton]](https://heroku.com/deploy?template=https://github.com/healthybro/heroku-vscode/tree/code-server-latest)
+[![herokuButton]](https://heroku.com/deploy?template=https://github.com/aviacommerce/avia/tree/master)
 
 
 [herokuButton]: https://www.herokucdn.com/deploy/button.svg "Deploy to heroku"
